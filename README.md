@@ -28,8 +28,10 @@ rem é assim que ficara a variavel mydate 20220229
 rem abaixo um exemplo de usualidade para extração do arquivo com o nome variavel dia a dia que na data da contrução é BASE_XXXX_20220229.zip
 rem caso queira ver como está a sua variavel mydate é só colocar "echo mydate" abaixo do último set
 rem lembrando que esté bate é para o mes anterior devido as definições acima se não precisar e for o mes atual é só remover todos os if
-rem o mesmo será extraido na pasta que está o bat
+
 rem pode remover todos os rem se quiser e lembrese de salvar como .bat
 
-7z e -y M:\ARQUIVOS_ORIGINAIS\BASES_EFICACIA\BASE_XXXX_%mydate%.zip
+7z e -y M:\ARQUIVOS_ORIGINAIS\BASES_FONTE\BASE_XXXX_%mydate%.zip
+
+rem o mesmo será extraido na pasta que está o bat
 exit
